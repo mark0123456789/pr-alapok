@@ -7,9 +7,10 @@ be:"kérem a vezetékneved : takács"
 be:"kérem a keresztneved : istván"
 ki:"a nevem: takács istván"
 """
-def telyes_nev():
+
     vezetek=input("kérem a vezetékneved: ")
     kereszt=input("kérem a keresztneved: ")
-    print(f"A nevem: {vezetek} {kereszt}")
+def telyes_nev(vnev,knev):
+    print(f"A nevem: {vnev} {knev}")
 
-telyes_nev()
+telyes_nev(vezetek,kereszt)
