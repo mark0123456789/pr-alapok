@@ -1,4 +1,4 @@
-darab_karakter = 1
+darab_karakter = 7
 sor = 1
 while sor <= 7:
     oszlop = 1
@@ -6,5 +6,5 @@ while sor <= 7:
         print('O ', end='')
         oszlop = oszlop + 1
     print('')
-    darab_karakter = darab_karakter + 1
+    darab_karakter = darab_karakter - 1
     sor = sor + 1    
